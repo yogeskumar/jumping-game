@@ -1,6 +1,7 @@
 var character = document.getElementById("character");
 var block = document.getElementById("block");
-var counter=0;
+var counter = 0;
+alert("Mobile users! Please rotate your screen")
 function jump(){
     if(character.classList == "animate"){return}
     character.classList.add("animate");
